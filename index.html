@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>International Label</title>
+
+    <!-- FONTS -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome-5/css/fontawesome-all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/wow/libs/animate.css">
+    <link rel="stylesheet" href="vendor/css-hamburgers/dist/hamburgers.min.css">
+    <link rel="stylesheet" href="vendor/slick/slick-theme.css">
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <link rel="stylesheet" href="vendor/mejs/mediaelementplayer.css">
+    <link rel="stylesheet" href="vendor/fullpage/jquery.fullPage.css">
+    <link rel="stylesheet" href="vendor/revolution/settings.css">
+    <link rel="stylesheet" href="vendor/revolution/layers.css">
+    <link rel="stylesheet" href="vendor/revolution/navigation.css">
+    <link rel="stylesheet" href="vendor/revolution/settings-source.css">
+    <link rel="stylesheet" href="vendor/revolution/tp-color-picker.css">
+    <link rel="stylesheet" href="vendor/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="favicon.png">
+
+
+</head>
+
+<body>
+
+    <!-- page load-->
+    <!-- <div class="loading">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div> -->
+
+    <!-- ********** UTILITY ********** -->
+    <div class="body-line">
+        <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********** HEADER ********** -->
+    <header class="header header-1">
+        <div class="header-menu hidden-tablet-landscape" id="js-navbar-fixed">
+            <div class="container-fluid">
+                <div class="header-menu-content display-flex">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo1.png" style="width: 300px;" alt="Spendora">
+                        </a>
+                    </div>
+                    <div class="menu-wrapper">
+                        <nav class="menu">
+                            <div>
+                                <ul class="menu-primary">
+                                    <li class="menu-item curent-menu-item menu-item-has-children">
+                                        <a href="index.html">Inicio</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="#experience">Nosotros</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="">Mercado</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="">Instalaciones</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="">Clientes</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- <div class="nav-wrapper">
+                        <div class="nav-box" id="nav-box">
+                            <a href="#" class="nav-close"><i class="zmdi zmdi-close"></i></a>
+                            <div class="nav-logo">
+                                <img src="images/logo-black.png" alt="Spendora">
+                            </div>
+                            <div class="nav-img">
+                                <img src="images/nav-box-img.jpg" alt="">
+                            </div>
+                            <div class="nav-info">
+                                <div class="info-item">
+                                    <span>Address: </span>No 40 Baria Sreet 133/2
+                                </div>
+                                <div class="info-item">
+                                    <span>Phone: </span>(295) 146 8067
+                                </div>
+                                <div class="info-item">
+                                    <a href="mailto:ashley-james@example.com"><span>Mail:
+                                        </span>ashley-james@example.com</a>
+                                </div>
+                            </div>
+                            <div class="nav-socials">
+                                <ul class="socials">
+                                    <li>
+                                        <a href="#"><i class="zmdi zmdi-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="zmdi zmdi-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="zmdi zmdi-tumblr"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="zmdi zmdi-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- ********** MENU PARA DISPOSITIVOS PEQUEÑOS ********* -->
+        <div class="hidden-tablet-landscape-up header-mobile">
+            <div class="header-top-mobile">
+                <div class="container-fluid">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo1.png" style="width: 40%;" alt="International Label">
+                        </a>
+                    </div>
+
+                    <!-- MENU HAMBURGUESA -->
+                    <button class="hamburger hamburger--spin hidden-tablet-landscape-up" id="toggle-icon">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="au-nav-mobile">
+                <nav class="menu-mobile">
+                    <div>
+                        <ul class="au-navbar-menu">
+                            <li class="menu-item curent-menu-item menu-item-has-children">
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">Nosotros</a>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="">Mercado</a>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="">Instalaciones</a>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="">Clientes</a>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ********** SLIDESHOW ********** -->
+        <section class="slideshow">
+            <div id="au_rev_slider_1" class="rev_slider fullscreenbanner slide-content" style="display:none;"
+                data-version="5.4.1">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-01" data-transition="fade" data-title="01">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/home1-slideshow3.jpg" alt="">
+
+                        <!-- LAYERS -->
+                        <!-- <div class="tp-caption tp-resizeme slideshow-title" data-frames='[{"delay":0,"speed":1000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-responsive="on" data-x="['left','left','center','center']" data-hoffset="['15','50','0','0']" data-y="['center','center','center','center']" data-voffset="['-160','-160','-145','-145']" data-width="['250']" data-height="['35']"
+                            data-fontsize="['15','15','15','15']" data-whitespace="normal" data-color="['#6eb2cf']" data-fontweight="['500']" data-textalign="['center']" data-lineheight="['35','35','40','40']" data-background="#fff">
+                            EXPERIENCIA
+                        </div> -->
+                        <div class="tp-caption tp-resizeme slideshow-desc"
+                            data-frames='[{"delay":0,"speed":1000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-responsive="on" data-x="['left','left','center','center']"
+                            data-hoffset="['15','50','0','0']" data-y="['center','center','center','center']"
+                            data-voffset="['-33','-33','-33','-45']" data-width="['700', '700', '400', '350']"
+                            data-fontsize="['75','75','45','35']" data-color="['#fff']" data-fontweight="['bold']"
+                            data-textalign="['left','left','center','center']" data-lineheight="['85','85','65','50']"
+                            data-whitespace="normal">
+                            EXPERIENCIA
+                        </div>
+                        <a href="#" class="tp-caption tp-resizeme slideshow-btn"
+                            data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-responsive="on" data-x="['left','left','center','center']"
+                            data-hoffset="['15','50','0','-35']" data-y="['center','center','center','center']"
+                            data-voffset="['145', '145', '115', '75']" data-width="['auto']" data-height="['auto']"
+                            data-type="text" data-textalign="['left','left','center','center']" data-paddingtop="[12]"
+                            data-paddingright="[29]" data-paddingbottom="[12]" data-paddingleft="[29]"
+                            data-fontsize="['15']" data-lineheight="['25']" data-color="['#fff']"
+                            data-fontweight="['500']">
+                            Conoce nuestro trabajo
+                        </a>
+                    </li>
+
+                    <li data-index="rs-02" data-transition="boxfade" data-title="02">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/maquinaria/maquinaria1.png" alt="">
+
+                        <!-- LAYERS -->
+                        <!-- <div class="tp-caption tp-resizeme slideshow-title" data-frames='[{"delay":0,"speed":1000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-responsive="on" data-x="['left','left','center','center']" data-hoffset="['15','50','0','0']" data-y="['center','center','center','center']" data-voffset="['-160','-160','-145','-145']" data-width="['250']" data-height="['35']"
+                            data-fontsize="['15','15','15','15']" data-whitespace="normal" data-color="['#6eb2cf']" data-fontweight="['500']" data-textalign="['center']" data-lineheight="['35','35','40','40']" data-background="#fff">
+                            EXPERIENCIA
+                        </div> -->
+                        <div class="tp-caption tp-resizeme slideshow-desc"
+                            data-frames='[{"delay":0,"speed":1000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-responsive="on" data-x="['left','left','center','center']"
+                            data-hoffset="['15','50','0','0']" data-y="['center','center','center','center']"
+                            data-voffset="['-33','-33','-33','-45']" data-width="['700', '700', '400', '350']"
+                            data-fontsize="['75','75','45','35']" data-color="['#fff']" data-fontweight="['bold']"
+                            data-textalign="['left','left','center','center']" data-lineheight="['85','85','65','65']"
+                            data-whitespace="normal">
+                            CALIDAD
+                        </div>
+                        <!-- <a href="#" class="tp-caption tp-resizeme slideshow-btn" data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-responsive="on" data-x="['left','left','center','center']" data-hoffset="['15','50','0','-35']" data-y="['center','center','center','center']" data-voffset="['145', '145', '115', '75']" data-width="['auto']" data-height="['auto']"
+                            data-type="text" data-textalign="['left','left','center','center']" data-paddingtop="[12]" data-paddingright="[29]" data-paddingbottom="[12]" data-paddingleft="[29]" data-fontsize="['15']" data-lineheight="['25']" data-color="['#fff']"
+                            data-fontweight="['500']">
+                            See Project
+                        </a> -->
+                    </li>
+
+                    <li data-index="rs-03" data-transition="boxfade" data-title="03">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/home1-slideshow3.jpg" alt="">
+
+                        <!-- LAYERS -->
+                        <!-- <div class="tp-caption tp-resizeme slideshow-title" data-frames='[{"delay":0,"speed":1000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-responsive="on" data-x="['left','left','center','center']" data-hoffset="['15','50','0','0']" data-y="['center','center','center','center']" data-voffset="['-160','-160','-145','-145']" data-width="['250']" data-height="['35']"
+                            data-fontsize="['15','15','15','15']" data-whitespace="normal" data-color="['#6eb2cf']" data-fontweight="['500']" data-textalign="['center']" data-lineheight="['35','35','40','40']" data-background="#fff">
+                            Architects petition
+                        </div> -->
+                        <div class="tp-caption tp-resizeme slideshow-desc"
+                            data-frames='[{"delay":0,"speed":1000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-responsive="on" data-x="['left','left','center','center']"
+                            data-hoffset="['15','50','0','0']" data-y="['center','center','center','center']"
+                            data-voffset="['-33','-33','-33','-45']" data-width="['700', '700', '400', '350']"
+                            data-fontsize="['75','75','45','35']" data-color="['#fff']" data-fontweight="['bold']"
+                            data-textalign="['left','left','center','center']" data-lineheight="['85','85','65','65']"
+                            data-whitespace="normal">
+                            TECNOLOGÍA
+                        </div>
+                        <!-- <a href="#" class="tp-caption tp-resizeme slideshow-btn" data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-responsive="on" data-x="['left','left','center','center']" data-hoffset="['15','50','0','-35']" data-y="['center','center','center','center']" data-voffset="['145', '145', '115', '75']" data-width="['auto']" data-height="['auto']"
+                            data-type="text" data-textalign="['left','left','center','center']" data-paddingtop="[12]" data-paddingright="[29]" data-paddingbottom="[12]" data-paddingleft="[29]" data-fontsize="['15']" data-lineheight="['25']" data-color="['#fff']"
+                            data-fontweight="['500']">
+                            See Project
+                        </a> -->
+                    </li>
+                </ul>
+                <div class="slide-numbers"></div>
+                <!-- <div class="tp-bannertimer" style="height: 10px; background: rgba(255,255,255,0.25);"></div> -->
+            </div>
+            <!-- END REVOLUTION SLIDER -->
+            <div class="wrap-scroll-slider1 display-flex-center">
+                <a href="#experience" class="scroll-slider1 flex-c trans-04"></a>
+            </div>
+            <!-- <div class="slideshow-socials">
+                <ul>
+                    <li>
+                        <a href="#">In</a>
+                    </li>
+                    <li>
+                        <a href="#">Tw</a>
+                    </li>
+                    <li>
+                        <a href="#">Fb</a>
+                    </li>
+                </ul>
+            </div> -->
+        </section>
+
+        <!-- ********** ACERCA DE NOSOTROS ********** -->
+        <section class="experience js-waypoint section-padding-large scroll-section" id="experience">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="year-experience">
+                            <div class="year-experience-number">20</div>
+                            <div class="year-experience-content">
+                                <div class="year-experience-title">años de experiencia</div>
+                                <span>nos respaldan</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <h3>Acerca de nosotros</h3>
+                            <p>La industria moderna exige dinamismo y flexibilidad, tecnología de punta y alta calidad
+                                en productos y servicios; con esta filosofía nace International Label como la primera
+                                empresa flexo gráfica en Morelos, con servicio para
+                                toda la República Mexicana y el extranjero. Siendo constituida en 1998, somos una
+                                empresa 100% mexicana, que cuenta con el personal altamente calificado, experiencia y la
+                                más avanzada tecnología para ofrecer productos y
+                                servicios de alta calidad.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="year-experience-image">
+                            <div class="gallery-mansory">
+                                <div class="grid-item">
+                                    <figure>
+                                        <a href="images/productos/gallery/1normal.jpg" data-fancybox="gallery"
+                                            class="grouped_elements2">
+                                            <img src="images/productos/gallery/1normal.jpg" alt="">
+                                            <span class="figure-hover"></span>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="grid-item">
+                                    <figure>
+                                        <a href="images/productos/gallery/2normal.jpg" data-fancybox="gallery"
+                                            class="grouped_elements2">
+                                            <img src="images/productos/gallery/2normal.jpg" alt="">
+                                            <span class="figure-hover"></span>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="grid-item">
+                                    <figure>
+                                        <a href="images/productos/gallery/3normal.jpg" data-fancybox="gallery"
+                                            class="grouped_elements2">
+                                            <img src="images/productos/gallery/3normal.jpg" alt="">
+                                            <span class="figure-hover"></span>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="grid-item">
+                                    <figure>
+                                        <a href="images/productos/gallery/4normal.jpg" data-fancybox="gallery"
+                                            class="grouped_elements2">
+                                            <img src="images/productos/gallery/4normal.jpg" alt="">
+                                            <span class="figure-hover"></span>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="grid-item">
+                                    <figure>
+                                        <a href="images/productos//botella1.jpeg" data-fancybox="gallery"
+                                            class="grouped_elements2">
+                                            <img src="images/productos//botella1.jpeg" alt="">
+                                            <span class="figure-hover"></span>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ********** INSTALACIONES ********** -->
+        <section class="our-process section-padding-large">
+            <div class="section-title section-title-center">
+                <div class="container">
+                    <img src="images/section-title-image.png" alt="">
+                    <h2>Nuestros Mercados</h2>
+                    <p class="desc">Descubre en lo que nos especializamos.</p>
+                </div>
+            </div>
+            <div class="our-process-content">
+                <div class="container-fluid">
+                    <ul class="our-process-list">
+                        <li class="item wow rollIn" data-wow-delay="0.1s">
+                            <div class="hexagon">
+                                <img src="images/process-bg.png" alt="">
+                                <figure class="display-flex-center">
+                                    <img src="images/mercados/farmaceutica.png" alt="">
+                                </figure>
+                                <div class="zigzax-line"></div>
+                            </div>
+                            <div class="info">
+                                <h5 class="title">Farmacéutica</h5>
+                            </div>
+                        </li>
+                        <li class="item wow rollIn" data-wow-delay="0.25s">
+                            <div class="hexagon">
+                                <img src="images/process-bg.png" alt="">
+                                <figure class="display-flex-center">
+                                    <img src="images/mercados/saludbelleza.png" alt="">
+                                </figure>
+                                <div class="zigzax-line"></div>
+                            </div>
+                            <div class="info">
+                                <h5 class="title">Salud y Belleza</h5>
+                            </div>
+                        </li>
+                        <li class="item wow rollIn" data-wow-delay="0.35s">
+                            <div class="hexagon">
+                                <img src="images/process-bg.png" alt="">
+                                <figure class="display-flex-center">
+                                    <img src="images/mercados/industrial.png" alt="">
+                                </figure>
+                                <div class="zigzax-line"></div>
+                            </div>
+                            <div class="info">
+                                <h5 class="title">Industrial</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container-fluid" style="margin-top: 2rem !important;">
+                    <ul class="our-process-list">
+                        <li class="item wow rollIn" data-wow-delay="0.1s">
+                            <div class="hexagon">
+                                <img src="images/process-bg.png" alt="">
+                                <figure class="display-flex-center">
+                                    <img src="images/mercados/alimentos.png" alt="">
+                                </figure>
+                                <div class="zigzax-line"></div>
+                            </div>
+                            <div class="info">
+                                <h5 class="title">Alimentos y Bebidas</h5>
+                            </div>
+                        </li>
+                        <li class="item wow rollIn" data-wow-delay="0.25s">
+                            <div class="hexagon">
+                                <img src="images/process-bg.png" alt="">
+                                <figure class="display-flex-center">
+                                    <img src="images/mercados/automotriz.png" alt="">
+                                </figure>
+                                <div class="zigzax-line"></div>
+                            </div>
+                            <div class="info">
+                                <h5 class="title">Automotriz</h5>
+                            </div>
+                        </li>
+                        <li class="item wow rollIn" data-wow-delay="0.35s">
+                            <div class="hexagon">
+                                <img src="images/process-bg.png" alt="">
+                                <figure class="display-flex-center">
+                                    <img src="images/mercados/agroindustria.png" alt="">
+                                </figure>
+                                <div class="zigzax-line"></div>
+                            </div>
+                            <div class="info">
+                                <h5 class="title">Agroindustria</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ********* INSTALACIONES ********* -->
+        <section class="projects section-padding-large wow fadeIn" data-wow-delay="0.15s">
+            <div class="section-title section-title-center">
+                <div class="container">
+                    <img src="images/section-title-image.png" alt="">
+                    <h2>Instalaciones</h2>
+                    <p class="desc">Equipo de primera y a la vanguardia en tecnología.</p>
+                </div>
+            </div>
+
+            <div class="project-content">
+                <div class="container-fluid">
+
+                    <section class="aboutus p-b-120 scroll-section">
+                        <div class="container">
+                            <!-- Maquinaria y Equipo -->
+                            <div class="aboutus-intro right">
+                                <figure class="intro-img">
+                                    <img src="images/home3-about-1.jpg" alt="">
+                                    <span class="figure-hover"></span>
+                                </figure>
+                                <div class="intro-content">
+                                    <p class="aboutus-bold">MAQUINARIA Y EQUIPO</p>
+                                    <p class="desc">
+                                        Trabajamos en una constante actualización en maquinaria y equipo así como
+                                        hardware y software, para siempre estar a la vanguardia en tecnología y
+                                        asegurando calidad total.
+                                    </p>
+                                </div>
+                                <span class="line line1"></span>
+                                <span class="line line2"></span>
+                                <span class="line line3"></span>
+                                <span class="line line4"></span>
+                            </div>
+
+                            <!-- Area de diseño y pre prensa -->
+                            <div class="aboutus-intro left">
+                                <figure class="intro-img">
+                                    <img src="images/home3-about-1.jpg" alt="">
+                                    <span class="figure-hover"></span>
+                                </figure>
+                                <div class="intro-content">
+                                    <p class="aboutus-bold">ÁREA DE DISEÑO Y PRE-PRENSA</p>
+                                    <p class="desc">
+                                        Contamos con Equipos Apple, Plotter y equipo periférico para el desarrollo de
+                                        cualquier archivo digital y pruebas de color, así como CDI ESKO para la
+                                        fabricación de grabados laser (directo a placa), maquinaria y equipos necesarios
+                                        para fabricación y montaje de Grabados.
+                                    </p>
+                                </div>
+                                <span class="line line1"></span>
+                                <span class="line line2"></span>
+                                <span class="line line3"></span>
+                                <span class="line line4"></span>
+                            </div>
+
+                            <!-- Area de prensa -->
+                            <div class="aboutus-intro right">
+                                <figure class="intro-img">
+                                    <img src="images/home3-about-1.jpg" alt="">
+                                    <span class="figure-hover"></span>
+                                </figure>
+                                <div class="intro-content">
+                                    <p class="aboutus-bold">ÁREA DE PRENSA</p>
+                                    <p class="desc">
+                                        Contamos con Maquinaria marca ARSOMA y COMCO, equipadas con 7 Y 8 estaciones de
+                                        impresión, todas con lámparas UV IST, Hot Stampíng, Cool Stamping, Laminado,
+                                        Sistema de Inspección por video BST y tratamiento corona ARCOTEC y ENERCON.
+                                    </p>
+                                </div>
+                                <span class="line line1"></span>
+                                <span class="line line2"></span>
+                                <span class="line line3"></span>
+                                <span class="line line4"></span>
+                            </div>
+
+                            <!-- Area de inspeccion -->
+                            <div class="aboutus-intro left">
+                                <figure class="intro-img">
+                                    <img src="images/home3-about-1.jpg" alt="">
+                                    <span class="figure-hover"></span>
+                                </figure>
+                                <div class="intro-content">
+                                    <p class="aboutus-bold">ÁREA DE INSPECCIÓN</p>
+                                    <p class="desc">
+                                        Para el área de Revisado y Aseguramiento de Calidad contamos con Máquinas
+                                        ROTOFLEX VLI 330 y VSI 400, equipada con 7 sensores de detección para faltante
+                                        de etiqueta, Sistema de conteo por etiqueta y/o metros, Guía de banda, 7
+                                        cuchillas sencillas de corte, 7 cuchillas de corte exacto, lámpara
+                                        estroboscópica, así como mesas de revisado WEB TECHNIQUES, equipada con sistema
+                                        de conteo por etiquetas, por metros y lámpara estroboscópica.
+                                    </p>
+                                </div>
+                                <span class="line line1"></span>
+                                <span class="line line2"></span>
+                                <span class="line line3"></span>
+                                <span class="line line4"></span>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- ********** CLIENTES ********** -->
+        <section class="our-team section-padding-large">
+            <div class="section-title section-title-center">
+                <div class="container">
+                    <img src="images/section-title-image.png" alt="">
+                    <h2>Clientes</h2>
+                    <p class="desc">Algunos de nuestros clientes que han confiado en nosotros</p>
+                </div>
+            </div>
+            <section class="partner">
+                <div class="container">
+                    <div class="partner-content">
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/aquanet.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/baxter.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/columbia.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/coty.png" alt=""></a>
+                        </div>
+
+                    </div>
+                    <div class="partner-content">
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/degasa.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/evsa.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/henkel.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/holland.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="partner-content">
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/lavin.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/p&g.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/revlon.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/rb.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="partner-content">
+
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/tecnoso.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="images/clientes/vizcarra.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="contact-info p-b-120">
+            <div class="container">
+                <div class="contact-info-content">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="contact-us">
+                                <h2>Contáctanos</h2>
+                                <p class="desc">Prueba pruebaok prueba prueba</p>
+                                <ul>
+                                    <li>
+                                        <span class="name">Dirección: </span>
+                                        <span>GALEANA No. 45, COL. ACAPANTZINGO, CUERNAVACA, MORELOS, MÉXICO C.P. 62440</span>
+                                    </li>
+                                    <li>
+                                        <span class="name">Teléfono:</span>
+                                        <span>+52 (777) 312-6897, 314-2651</span>
+                                    </li>
+                                    <li>
+                                        <span class="name">Correo:</span>
+                                        <span>chris@gmail.com</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="contact-form">
+                                <form method="POST" class="common-form">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <textarea name="message" id="message" required="required"></textarea>
+                                                <label for="message">Mensaje</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <input type="text" id="name" name="name" required="required">
+                                                <label for="name">
+                                                    Nombre
+                                                    <span class="required">*</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <input type="text" id="email" name="email" required="required">
+                                                <label for="email">
+                                                    Correo
+                                                    <span class="required">*</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-submit">
+                                                <input type="submit" value="Enviar" class="submit">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer class="footer footer2 background-pattern" style="background-image: url('images/home1-slideshow1.jpg')">
+        <div class="footer-top">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img style="width: 25%;" src="images/logo1.png" alt="Spendora">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <div class="container">
+                <div class="footer-menu">
+                    <nav class="menu">
+                        <div>
+                            <ul class="menu-primary">
+                                <li class="menu-item curent-menu-item">
+                                    <a href="index.html">Inicio</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">Nosotros</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">Mercado</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">Instalaciones</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">Clientes</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="footer-line"></div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <!-- Back to top -->
+    <div id="back-to-top">
+        <i class="zmdi zmdi-long-arrow-up"></i>
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/slick/slick.min.js"></script>
+    <script src="vendor/wow/dist/wow.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEmXgQ65zpsjsEAfNPP9mBAz-5zjnIZBw"></script>
+    <script src="js/theme-map.js"></script>
+    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="vendor/nouislider/nouislider.min.js"></script>
+    <script src="vendor/mejs/mediaelement-and-player.min.js"></script>
+    <script src="vendor/fullpage/jquery.fullPage.js"></script>
+
+    <!-- REVOLUTION JS FILES -->
+    <script src="vendor/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- SLICEY ADD-ON FILES -->
+    <script src='vendor/revolution/js/revolution.addon.slicey.min.js?ver=1.0.0'></script>
+
+    <script src="js/plugin.js"></script>
+    <script src="js/config-contact.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
